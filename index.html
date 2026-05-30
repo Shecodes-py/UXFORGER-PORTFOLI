@@ -338,7 +338,7 @@ nav{
 .stack-i:hover{border-color:var(--teal);color:var(--teal)}
 .about-r{position:relative}
 .a-photo{position:relative;width:100%;aspect-ratio:3/4;max-width:380px;overflow:visible;padding-bottom:20px;padding-right:20px}
-.a-img{width:100%;height:100%;background:linear-gradient(160deg,#062e32 0%,#0D5C63 60%,#1a7a82 100%);position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:24px}
+.a-img{position: relative;overflow: hidden; width:100%;height:100%;background:linear-gradient(160deg,#062e32 0%,#0D5C63 60%,#1a7a82 100%);position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:24px}
 .a-img-name{font-family:'Cormorant Garamond',serif;font-size:56px;font-weight:700;font-style:italic;color:rgba(255,255,255,.07);line-height:1;letter-spacing:-2px;user-select:none}
 .a-border{position:absolute;top:20px;right:-20px;bottom:-20px;left:20px;border:1px solid var(--teal);z-index:-1}
 .a-tag{position:absolute;bottom:-14px;left:-14px;background:var(--gold);color:var(--ink);font-family:'Space Mono',monospace;font-size:9px;letter-spacing:2px;padding:9px 15px;text-transform:uppercase;font-weight:700}
@@ -574,6 +574,15 @@ footer{padding:22px 64px;border-top:1px solid var(--border);display:flex;align-i
   .a-facts { margin-top: 32px; }
   .fact-n { font-size: 32px; }
 
+
+  /* Profile Image */
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+  }
+
   /* Testimonials: single col */
   .test-grid { grid-template-columns: 1fr; }
   .test-card:last-child { display: none; }
@@ -693,7 +702,7 @@ footer{padding:22px 64px;border-top:1px solid var(--border);display:flex;align-i
       <p class="h-sub">I design <strong>clean interfaces</strong> with better user experience — <strong>highly converting,</strong> deeply intentional, and built to solve real problems.</p>
       <div class="h-acts">
         <a href="#work" class="btn-p">View Work →</a>
-        <a href="#contact" class="btn-o">Download Resume ↓</a>
+        <a href="https://drive.google.com/file/d/1XUZ9k0L9jNYjl4W2IzW14Sw3jykLUhl-/view" class="btn-o" target="_blank" rel="noopener noreferrer">Download Resume ↓</a>
       </div>
     </div>
 
@@ -779,21 +788,32 @@ footer{padding:22px 64px;border-top:1px solid var(--border);display:flex;align-i
   <div class="s-lbl rv">Career</div>
   <h2 class="s-ttl rv">Where I've<br><em>worked</em></h2>
   <div class="exp-list">
+
     <div class="exp-i rv">
       <div class="exp-date">2024 – Present</div>
       <div><div class="exp-co">The UX Forger</div><div class="exp-role">Freelance UI/UX Designer</div><div class="exp-desc">Designing user-centered web and mobile interfaces under my personal brand. Taking projects from research through to high-fidelity delivery — covering fintech, healthcare, e-commerce, and game design.</div><div class="exp-skills"><span class="exp-sk">Figma</span><span class="exp-sk">UX Research</span><span class="exp-sk">UI Design</span><span class="exp-sk">Prototyping</span><span class="exp-sk">Case Studies</span></div></div>
       <div class="exp-type">Freelance</div>
     </div>
+
     <div class="exp-i rv">
-      <div class="exp-date">2024 – Present</div>
-      <div><div class="exp-co">Wrix Way Tech Hub</div><div class="exp-role">UI/UX Designer</div><div class="exp-desc">Contributed to design projects in a collaborative tech hub environment. Working with developers and product teams to ship interfaces that solve real user problems — web and mobile focused.</div><div class="exp-skills"><span class="exp-sk">Product Design</span><span class="exp-sk">Collaboration</span><span class="exp-sk">Wireframing</span><span class="exp-sk">Figma</span></div></div>
-      <div class="exp-type">Full-time</div>
+      <div class="exp-date">Oct 2025 – Dec 2025</div>
+      <div><div class="exp-co">PLASTIBUILD CREATIVE SOLUTIONS</div><div class="exp-role">Senior UI/UX Designer</div><div class="exp-desc">Led the product design and user experience strategy for the PlastiBuild Digital Hub — a sustainability-driven platform connecting waste pickers, artisans, students, and eco-partners. Designed scalable mobile experiences, structured Information Architecture, and high-fidelity interfaces across the LMS, EcoMart, carbon credit, and waste management systems while collaborating closely with product, engineering, and IoT teams.</div><div class="exp-skills"><span class="exp-sk">Mobile App Design</span><span class="exp-sk">User Flow</span><span class="exp-sk">Information Architecture</span><span class="exp-sk">High-fidelity UI</span><span class="exp-sk">Design System</span><span class="exp-sk">Product Strategy</span></div></div>
+      <div class="exp-type">Volunteer</div>
+
     </div>
+    
     <div class="exp-i rv">
-      <div class="exp-date">2025</div>
-      <div><div class="exp-co">Ventics AI</div><div class="exp-role">Product Designer</div><div class="exp-desc">Designed the complete waitlist landing page for an AI-powered interior design product. Came in via referral, signed contracts, and delivered a full high-fidelity design including research, competitor analysis, and UI design.</div><div class="exp-skills"><span class="exp-sk">Landing Page</span><span class="exp-sk">Competitor Research</span><span class="exp-sk">High-fidelity UI</span><span class="exp-sk">Client Work</span></div></div>
+      <div class="exp-date">Jan 2026 - April 2026</div>
+      <div><div class="exp-co">Ventics AI</div><div class="exp-role">Founding Product Designer</div><div class="exp-desc">Designed the complete waitlist landing page for an AI-powered interior design product. Came in via referral, signed contracts, and delivered a full high-fidelity design including research, competitor analysis, and UI design.</div><div class="exp-skills"><span class="exp-sk">Landing Page</span><span class="exp-sk">Competitor Research</span><span class="exp-sk">High-fidelity UI</span><span class="exp-sk">Client Work</span></div></div>
       <div class="exp-type">Contract</div>
     </div>
+
+    <div class="exp-i rv">
+      <div class="exp-date">April 2026 – Present</div>
+      <div><div class="exp-co">Wrix Way Tech Hub</div><div class="exp-role">UI/UX Designer</div><div class="exp-desc">Teaching UI/UX design fundamentals to beginner-level students at Wrix-way Tech Hub. Delivering structured lessons covering design thinking, Figma, wireframing, prototyping, and user research — breaking down complex concepts into practical, hands-on learning experiences.</div><div class="exp-skills"><span class="exp-sk">Product Design</span><span class="exp-sk">Collaboration</span><span class="exp-sk">Wireframing</span><span class="exp-sk">Figma</span></div></div>
+      <div class="exp-type">Full-time</div>
+    </div>
+
   </div>
 </section>
 
@@ -857,7 +877,7 @@ footer{padding:22px 64px;border-top:1px solid var(--border);display:flex;align-i
     <div class="s-lbl rv">About me</div>
     <h2 class="s-ttl rv" style="margin-bottom:28px">The person<br>behind the <em>forge</em></h2>
     <p class="about-txt rv">I'm <strong>Owoade Opeyemi</strong> — a UI/UX and Product Designer based in Lagos, Nigeria, operating under the brand <strong>The UX Forger.</strong> I design interfaces that feel as good as they look.</p>
-    <p class="about-txt rv">Alongside design, I'm a <strong>200-level Mathematics student at the University of Lagos</strong> — which means I think in systems, logic, and patterns. That analytical mindset flows into every product I touch.</p>
+    <p class="about-txt rv">Alongside design, I'm a <strong>Mathematics student at the University of Lagos</strong> — which means I think in systems, logic, and patterns. That analytical mindset flows into every product I touch.</p>
     <p class="about-txt rv">I also <strong>teach UI/UX design</strong> to aspiring designers breaking into the field — because good design thinking should be accessible to everyone willing to learn it.</p>
     <div class="about-stack rv">
       <div class="about-stack-lbl">My stack</div>
@@ -874,7 +894,9 @@ footer{padding:22px 64px;border-top:1px solid var(--border);display:flex;align-i
   </div>
   <div class="about-r rv">
     <div class="a-photo">
-      <div class="a-img"><div class="a-img-name">Owoade<br>Opeyemi</div></div>
+      <div class="a-img">
+        <img src="UXFORGER.jpeg" alt="Owoade Opeyemi" class="profile-image">
+      </div>
       <div class="a-border"></div>
       <div class="a-tag">The UX Forger</div>
     </div>
@@ -889,7 +911,7 @@ footer{padding:22px 64px;border-top:1px solid var(--border);display:flex;align-i
   <h2 class="s-ttl rv">What clients<br><em>say</em></h2>
   <div class="test-grid">
     <div class="test-card rv">
-      <div class="test-quote">"Working with Pyemmy was smooth from start to finish. The design direction felt right immediately, and the final outcome exceeded what I had in mind."</div>
+      <div class="test-quote">"Working with The UX Forger was smooth from start to finish. The design direction felt right immediately, and the final outcome exceeded what I had in mind."</div>
       <div class="test-divider"></div>
       <div class="test-author">Ventics AI Team</div>
       <div class="test-role">AI Interior Design Startup</div>
@@ -999,7 +1021,7 @@ footer{padding:22px 64px;border-top:1px solid var(--border);display:flex;align-i
       <button class="c-submit">Send message →</button>
     </div>
     <br>
-    <a href="#" class="c-resume rv">Download Resume ↓</a>
+    <a href="https://drive.google.com/file/d/1XUZ9k0L9jNYjl4W2IzW14Sw3jykLUhl-/view" class="btn-o" target="_blank" rel="noopener noreferrer">Download Resume ↓</a>
   </div>
 </section>
 
